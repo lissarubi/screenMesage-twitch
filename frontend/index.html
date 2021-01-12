@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+
+      #messageBox{
+        font-family: Neue,Helvetica,Arial,sans-serif;
+        font-size: 4ch;
+        word-wrap: break-word;
+        border-style: solid;
+        border-color: rgba(0, 0, 0, 0);
+        border-width: 10px;
+        animation-duration: 5s;
+        animation-name: slidein;
+      }
+        @keyframes slidein {
+        from {
+          margin-left: 100%;
+          width: 300%;
+        }
+
+        to {
+          margin-left: 0%;
+          width: 100%;
+        }
+    </style>
+  </head>
+  <body>
+    <div id="messageBox"></div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/3.0.0/socket.io.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
