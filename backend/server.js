@@ -5,6 +5,7 @@ const app = express();
 const mods = [
   'pokemaobr',
   'tiagumb',
+  'profbrunolopes',
   'itsevolution',
   'freakfrog',
   'edersondeveloper',
